@@ -1,0 +1,43 @@
+{
+  "nodes": {
+    "ctp": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1677814890,
+        "narHash": "sha256-q4qHUz5bGGcldXzrGh9PJPKU4kvyKFCKhjvBRzT1Jz8=",
+        "rev": "530db7cbcbee895a7c0ce65d06db003f25a2c57b",
+        "revCount": 113,
+        "type": "git",
+        "url": "https://github.com/catppuccin/palette"
+      },
+      "original": {
+        "rev": "530db7cbcbee895a7c0ce65d06db003f25a2c57b",
+        "type": "git",
+        "url": "https://github.com/catppuccin/palette"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1679410443,
+        "narHash": "sha256-xDHO/jixWD+y5pmW5+2q4Z4O/I/nA4MAa30svnZKK+M=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "c9ece0059f42e0ab53ac870104ca4049df41b133",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "ref": "nixpkgs-unstable",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "ctp": "ctp",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
